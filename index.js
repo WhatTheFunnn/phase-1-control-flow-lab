@@ -20,16 +20,12 @@ let ct = city
   }
 }
 function switchOnCharmFromTip(tip){
-const generous = tip
-switch (generous) {
-  case "the tip is generous":
-    console.log("Thank you so much.");
-    break;
-  case "the tip is not as generous":
-    console.log("Thank you.");
-    break;
-  default:
-    console.log("Bye.");
-    break;
+switch (tip) {
+  case  `generous`:
+    return 'Thank you so much.';
+  case `not as generous`:
+    return "Thank you."
+  default :
+    return `Bye.`;
   }
 }
