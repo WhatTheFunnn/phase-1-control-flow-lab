@@ -22,10 +22,10 @@ let ct = city
 function switchOnCharmFromTip(tip){
 const generous = tip
 switch (generous) {
-  case "the tip is generous":
+  case `the tip is generous`:
     console.log("Thank you so much.");
     break;
-  case "the tip is not as generous":
+  case `the tip is not as generous`:
     console.log("Thank you.");
     break;
   default:
